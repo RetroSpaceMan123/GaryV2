@@ -5,7 +5,7 @@ module.exports = {
     execute(message, args){
         const embed = new DISCORD.MessageEmbed()
         .setTitle(`Help Directory`)
-        .setDescription(`These are all of Teddy's commands so far. Try one out for yourself. Make sure to use "!" before the command (Ex: !hello)`)
+        .setDescription(`These are all of Teddy's commands so far. Try one out for yourself. Make sure to use "?" before the command (Ex: ?hello)`)
         .addField('hello', 'Receive a warm greeting from Teddy')
         .addField('rickroll', 'Rick-rolls the chat')
         .addField('fancybox', 'Creates a fancy message')

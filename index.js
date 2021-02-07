@@ -2,7 +2,7 @@ const DISCORD = require('discord.js'); //connects script to discord.js
 const client = new DISCORD.Client(); //creates new client
 const TOKEN = ''; //connects script to user
 
-const PREFIX = `!`; //prefix for all commands
+const PREFIX = `?`; //prefix for all commands
 
 //command handler
 const fs = require('fs');
